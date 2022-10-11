@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Tic tac toe</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="game-body" id="body">
+            <span id="head">Tic tac toe</span>
+
+            <!-- game rules -->
+            <span>
+                <p id="rules"> 1. Game starts by just Tap on
+                    box<br><br> 2. First Player starts as
+                    <b>Player X</b><br>And<br>3. Second
+                    Player as <b>Player 0</b>
+            </span>
+            </p>
+            <!-- game rules end -->
+
+            <span>
+                <p id="turn"></p>
+            </span>
+
+            <!-- section tictactoe start -->
+            <div class="box" id="bx1" onclick="func1(); mainfunc();"></div>
+            <div class="box" id="bx2" onclick="func2(); mainfunc();"></div>
+            <div class="box" id="bx3" onclick="func3(); mainfunc();"></div>
+            <div class="box" id="bx4" onclick="func4(); mainfunc();"></div>
+            <div class="box" id="bx5" onclick="func5(); mainfunc();"></div>
+            <div class="box" id="bx6" onclick="func6(); mainfunc();"></div>
+            <div class="box" id="bx7" onclick="func7(); mainfunc();"></div>
+            <div class="box" id="bx8" onclick="func8(); mainfunc();"></div>
+            <div class="box" id="bx9" onclick="func9(); mainfunc();"></div>
+        </div>
+        <button class="btn" onclick="funcbtn()" id="bt1">Reset</button>
+    </section>
+    <!-- section tictactoe end -->
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
